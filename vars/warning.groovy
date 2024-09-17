@@ -1,3 +1,3 @@
-def call(message) {
-  echo " Warning: ${message} "
+def call(String message) {
+  sh " echo Hello ${message} "
 }
