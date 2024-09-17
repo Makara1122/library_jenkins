@@ -1,5 +1,5 @@
-def call() {
+def call(String name,String dayOfWeek) {
 
-sh " echo Hello World "
+sh " Hello ${name}, To day is ${dayOfWeek} "
 
 }
