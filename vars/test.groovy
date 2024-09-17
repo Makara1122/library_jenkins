@@ -1,3 +1,3 @@
-def info(Map config = [:]) {
-  sh " echo Hello bro Makara ${config.makara} "
+def info(message) {
+  sh " echo Hello bro Makara ${message}. "
 }
