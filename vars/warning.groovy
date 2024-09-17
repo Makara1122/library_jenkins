@@ -1,3 +1,3 @@
-def warn(message) {
+def call(message) {
   echo " Warning: ${message} "
 }
